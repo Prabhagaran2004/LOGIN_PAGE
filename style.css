@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.login-container {
+    text-align: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    color: black;
+    background-color: #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, button {
+    margin: 10px 0;
+}
+input{
+    background-color: rgba(220, 217, 217, 0.733);
+    height: 25px;
+    font-size: medium;
+}
+button{
+    width: 120px;
+    border-radius: 8px;
+    background-color: rgb(98, 201, 201);
+    color: black;
+    margin: 10px;
+}
