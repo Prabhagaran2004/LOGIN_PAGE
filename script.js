@@ -22,4 +22,4 @@ function changePass(){
         alert("password doesn't match")
     }
 
-}
+}  
